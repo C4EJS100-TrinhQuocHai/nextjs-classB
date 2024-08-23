@@ -33,12 +33,4 @@ export async function POST(request: any) {
         user: data
     })
 }
-export async function PUT(request: any) {
-    const data = await request.json();
-    console.log("data11111 post", data);
 
-    return NextResponse.json({
-        message: "cập user thành công",
-        user: data
-    })
-}
